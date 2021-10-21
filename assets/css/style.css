@@ -409,8 +409,12 @@ a:hover {
 }
 
 .button-big {
-  padding: 0.9rem 2.3rem;
-  font-size: 1.2rem;
+  padding: 0.9rem 1.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: #0078ff;
+  color: #fff;
+  border-color: #cde1f8;
 }
 
 .button-rouded {
@@ -846,14 +850,17 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  
 }
 .work-box:hover img {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .work-img {
   display: block;
   overflow: hidden;
+  /* width: 26rem;
+  height: 15rem; */
 }
 .work-img img {
   transition: all 1s;
@@ -883,6 +890,17 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+}
+.project-button{
+  font-size: 1rem;
+  /* border: black 1px solid; */
+  border-radius: 3px;
+  color: black;
+  background-color:lightskyblue;
+  padding: .3rem;
+  
+  
+  
 }
 
 /*--------------------------------------------------------------
@@ -1017,7 +1035,9 @@ a:hover {
     padding-left: 0rem;
   }
 }
-
+.icon-communication{
+  width: 2.5rem;
+}
 .php-email-form .error-message {
   display: none;
   color: #fff;
